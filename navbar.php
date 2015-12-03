@@ -14,7 +14,7 @@
     <a href="#!" class="brand-logo">#PrayForChennai</a>
     <ul class="right hide-on-med-and-down">
       <li><a href="sass.html">Locate NGO</a></li>
-      <li><a href="badges.html">Need Help</a></li>
+      <li><a href="need-help.php">Need Help</a></li>
       <li><a href="badges.html">Find NGO by Locality</a></li>
       <li><a href="addNGO.php">Add NGO</a></li>
       <li><a href="badges.html">Donate</a></li>
