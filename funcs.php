@@ -30,6 +30,34 @@ function addNGO($name, $address, $contact, $type_of_help, $area_covered){
 	}
 }
 
+
+// add Helpline...
+
+function addHelpline($name, $description, $contact){
+	 global $mysqli,$db_table_prefix;
+	//$typeId is the proof that of where the transaction occurred. 
+	$stmt = $mysqli->prepare("INSERT INTO helpline  (
+		helplineTitle,
+		helplineNumber,
+		description
+		)
+		VALUES (
+		?,
+		?,
+		?
+		)");
+	if(!$stmt)  //if there is an error, then it will be shown!. 
+         { // show error                                                                                                       
+         echo $mysqli->error;
+          }
+          else{
+	$stmt->bind_param("sss", $name, $description, $contact);
+	$stmt->execute();
+	$stmt->close();
+
+	}
+}
+
 	function needHelp($name, $address, $contact, $type_of_help, $location){
 	 global $mysqli,$db_table_prefix;
 	//$typeId is the proof that of where the transaction occurred. 

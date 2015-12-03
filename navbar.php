@@ -17,13 +17,14 @@
     <a href="index.php" class="brand-logo">#PrayForChennai</a>
     <ul class="right hide-on-med-and-down">
       <li><a href="locate-ngo.php">Locate NGO</a></li>
-      <li><a href="help-needed.php">Help needed</a></li>
+      <li><a href="help-needed.php">People(Need Help)</a></li>
       <li><a href="need-help.php">Need Help</a></li>
       <li><a href="find-ngo.php">Find NGO by Locality</a></li>
       <li><a href="add-ngo.php">Add NGO</a></li>
       <li><a href="donate.php">Donate</a></li>
-      <li><a href="about-us.html">About Us</a></li>      <!-- Dropdown Trigger -->
-      <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Helpline<i class="material-icons right">arrow_drop_down</i></a></li>
+      <li><a href="helpline.php">Helpline</a></li>
+      <li><a href="about-us.php">About Us</a></li>      <!-- Dropdown Trigger -->
+      <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Emergency<i class="material-icons right">arrow_drop_down</i></a></li>
     </ul>
   </div>
 </nav>
