@@ -84,12 +84,12 @@ if (isset($_POST['name'])) {
     <div class="row">
     <form class="col s12" id = "addNGO" method = "POST" action = "need-help.php"> 
       <div class="row">
-        <div class="input-field col s6">
+        <div class="input-field col s12 l6 m6">
           <input name = "name" placeholder="Please enter your name" id="first_name" type="text" class="validate" required>
           <label for="first_name">Name</label>
         </div>
         <div class="row">
-        <div class="input-field col s6">
+        <div class="input-field col s12 l6 m6">
           <input name = "contact" placeholder="Please enter your Contact Number" id="first_name" type="text" class="validate" required>
           <label for="first_name">Contact</label>
 
@@ -105,16 +105,16 @@ if (isset($_POST['name'])) {
       </div>
 
       <div class="row">
-        <div class="input-field col s6">
+        <div class="input-field col s12 l6 m6">
           <input name = "area" placeholder="Please enter the area you can reach" id="first_name" type="text" class="validate" required>
           <label for="first_name">Area</label>
         </div>
         </div>
         <div class = "row">
-          <div class = "input-field col s6">
+          <div class = "input-field col s12 l6 m6">
 <label>Type of help</label><br><br>
   <select class="browser-default" name = "type_of_help">
-    <option value="" disabled selected>Please choose the type of help you need</option>
+    <option value="" disabled selected>The type of help you need</option>
     <option value="Food">Food</option>
     <option value="Evacuation">Shelter</option>
     <option value="Venue">Rescue</option>
