@@ -1,5 +1,5 @@
 <?php
-$mysqli=new mysqli("http://mysql.hostinger.in","u860596125_pray","prayforchennainow","u860596125_pray");
+$mysqli=new mysqli("merabite.db.10424157.hostedresource.com","merabite","Ashwini@0529","merabite");
 date_default_timezone_set('Asia/kolkata');
 if(mysqli_connect_errno())
 {
