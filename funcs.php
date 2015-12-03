@@ -82,7 +82,7 @@ function showPeopleWhoNeedHelp()
 	while ($stmt->fetch()){
 		
 		echo ' <div class="row">
-        <div class="col s6 m12">
+        <div class="col s6 s12 m6">
           <div class="card white">
             <div class="card-content black-text">
               <span class="card-title">'.$name.'</span>
@@ -127,7 +127,7 @@ function showPeopleWhoAreGivingHelp()
 	while ($stmt->fetch()){
 		
 		echo ' <div class="row">
-        <div class="col s6 m12">
+        <div class="col s12 m6">
           <div class="card white">
             <div class="card-content black-text">
               <span class="card-title">'.$name.'</span>
@@ -137,6 +137,98 @@ function showPeopleWhoAreGivingHelp()
             </div>
             <div class="card-action">
               <a href="#">Contact: '.$contact.'</a><br>
+              
+            </div>
+          </div>
+        </div>
+      </div>';
+
+			}
+
+
+	
+	$stmt->close();
+
+}
+
+
+// function to return number of people who need help....
+
+function NumberOfPeopleWhoWantHelp()
+{
+	
+	global $mysqli,$db_table_prefix; 
+	$query = "SELECT * FROM needhelp";
+	$stmt = $mysqli->prepare($query);
+	//$stmt->bind_param($data);
+	$stmt->execute();
+	//$stmt->bind_result();
+	$number=0;
+	while ($stmt->fetch()){
+		
+		$number++;
+
+
+			}
+
+	return $number;
+			
+	$stmt->close();
+}
+
+
+// function to return number of people who are giving help....
+
+function NumberOfPeopleWhoAreHelping()
+{
+	
+	global $mysqli,$db_table_prefix; 
+	$query = "SELECT * FROM addngo";
+	$stmt = $mysqli->prepare($query);
+	//$stmt->bind_param($data);
+	$stmt->execute();
+	//$stmt->bind_result();
+	$number=0;
+	while ($stmt->fetch()){
+		
+		$number++;
+
+
+			}
+
+	return $number;
+			
+	$stmt->close();
+}
+
+
+// Show Helpline 
+
+function showHelpline()
+{
+
+
+	global $mysqli,$db_table_prefix; 
+	$stmt = $mysqli->prepare("SELECT 
+		helplineTitle,
+		helplineNumber,
+		description
+        FROM helpline
+		");
+		//$stmt->bind_param($data);
+	$stmt->execute();
+	$stmt->bind_result($helplineTitle, $helplineNumber, $description);
+	while ($stmt->fetch()){
+		
+		echo ' <div class="row">
+        <div class="col s12 m6">
+          <div class="card white">
+            <div class="card-content black-text">
+              <span class="card-title">'.$helplineTitle.'</span>
+              <p>Description: '.$description.'.</p>
+             </div>
+            <div class="card-action">
+              <a href="#">Contact: '.$helplineNumber.'</a><br>
               
             </div>
           </div>
