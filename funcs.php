@@ -101,7 +101,7 @@ function showPeopleWhoNeedHelp()
 		address,
 		area,
 		typeOfHelp
-        FROM needHelp
+        FROM needhelp
 		ORDER BY id DESC
 		");
 		//$stmt->bind_param($data);
