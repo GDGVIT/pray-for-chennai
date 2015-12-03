@@ -4,7 +4,7 @@ include 'config.php';
 function addNGO($name, $address, $contact, $type_of_help, $area_covered){
 	 global $mysqli,$db_table_prefix;
 	//$typeId is the proof that of where the transaction occurred. 
-	$stmt = $mysqli->prepare("INSERT INTO ADDNGO  (
+	$stmt = $mysqli->prepare("INSERT INTO addngo (
 		name,
 		address,
 		contact,
