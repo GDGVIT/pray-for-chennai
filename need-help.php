@@ -21,9 +21,9 @@ if (isset($_POST['name'])) {
     $address = $_POST['address'];
     $area_covered= $_POST['area'];
     $type_of_help = $_POST['type_of_help'];
-    addNGO($_POST['name'],$_POST['address'], $_POST['contact'], $_POST['type_of_help'], $_POST['area']);
+    needHelp($_POST['name'],$_POST['address'], $_POST['contact'], $_POST['type_of_help'], $_POST['area']);
     echo ' <div class="row">
-          <div class="grid-example col s12"><span class="flow-text">Thankyou for your support. Your response is recorded and would be shown in our database. <a href = "index.php" >Go Back</a></span></div></div>';
+          <div class="grid-example col s12"><span class="flow-text"> Your response is recorded and would be shown in our database. We have shared your information with NGOs and they will contact you ASAP. Be safe. <a href = "index.php" >Go Back</a></span></div></div>';
         }
 
         else {
@@ -42,7 +42,7 @@ if (isset($_POST['name'])) {
     
     </div>
     <div class="row">
-    <form class="col s12" id = "addNGO" method = "POST" action = "add-ngo.php"> 
+    <form class="col s12" id = "addNGO" method = "POST" action = "need-help.php"> 
       <div class="row">
         <div class="input-field col s6">
           <input name = "name" placeholder="Please enter your name" id="first_name" type="text" class="validate" required>
@@ -74,10 +74,10 @@ if (isset($_POST['name'])) {
           <div class = "input-field col s6">
 <label>Type of help</label><br><br>
   <select class="browser-default" name = "type_of_help">
-    <option value="" disabled selected>Please choose one option</option>
+    <option value="" disabled selected>Please choose the type of help you need</option>
     <option value="food">Food</option>
-    <option value="evacuation">Evacuation</option>
-    <option value="venue">Venue</option>
+    <option value="evacuation">Shelter</option>
+    <option value="venue">Rescue</option>
     <option value="medical">Medical</option>
     <option value="other">Other</option>
 
@@ -87,7 +87,7 @@ if (isset($_POST['name'])) {
 
 
       </div>
-     <a class="waves-effect waves-light btn" id= "submitForm">Submit</a>
+     <a class="waves-effect waves-light btn" id= "submitForm">Request Help</a>
     </form>
   </div>
 
