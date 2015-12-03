@@ -16,7 +16,7 @@
       <li><a href="sass.html">Locate NGO</a></li>
       <li><a href="need-help.php">Need Help</a></li>
       <li><a href="badges.html">Find NGO by Locality</a></li>
-      <li><a href="addNGO.php">Add NGO</a></li>
+      <li><a href="add-ngo.php">Add NGO</a></li>
       <li><a href="badges.html">Donate</a></li>
       <li><a href="about-us.html">About Us</a></li>      <!-- Dropdown Trigger -->
       <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Helpline<i class="material-icons right">arrow_drop_down</i></a></li>

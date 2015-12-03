@@ -19,13 +19,8 @@
     include 'funcs.php';
     echo '  <br><br>
        <div class="row">
-          <div class="grid-example col s6"><span class="flow-text">People who need help</span>
+          <div class="grid-example col s12"><span class="flow-text">Following is the list of NGOs or individuals who are ready to help you. </span>
             ';
-
-    showPeopleWhoNeedHelp();
-    echo '
-          </div>
-    <div class="grid-example col s6"><span class="flow-text">Help Line</span>';
 
     showPeopleWhoAreGivingHelp();
     echo '

@@ -75,11 +75,11 @@ if (isset($_POST['name'])) {
 <label>Type of help</label><br><br>
   <select class="browser-default" name = "type_of_help">
     <option value="" disabled selected>Please choose the type of help you need</option>
-    <option value="food">Food</option>
-    <option value="evacuation">Shelter</option>
-    <option value="venue">Rescue</option>
-    <option value="medical">Medical</option>
-    <option value="other">Other</option>
+    <option value="Food">Food</option>
+    <option value="Evacuation">Shelter</option>
+    <option value="Venue">Rescue</option>
+    <option value="Medical">Medical</option>
+    <option value="Other">Other</option>
 
   </select>
             </div>
