@@ -2081,7 +2081,7 @@ img.responsive-img, video.responsive-video {
   display: inline-block;
   float: none; }
 
-@media only screen and (max-width : 992px) {
+@media only screen and (max-width : 1292px) {
   .pagination {
     width: 100%; }
     .pagination li.prev, .pagination li.next {
@@ -7293,7 +7293,7 @@ select {
     right: 0;
     left: auto; }
 
-@media only screen and (max-width : 992px) {
+@media only screen and (max-width : 1200px) {
   .side-nav.fixed {
     left: -105%; }
     .side-nav.fixed.right-aligned {
