@@ -36,9 +36,9 @@
               <ul >
                 <li><a href="locate-ngo.php">Locate NGO</a></li>
                 <li><a href="help-needed.php">People(Need Help)</a></li>
-                <li><a href="need-help.php">Need Help</a></li>
+                <li><a href="need-help.php">Request Help</a></li>
                 <li><a href="find-ngo.php">Find NGO by Locality</a></li>
-                <li><a href="add-ngo.php">Add NGO</a></li>
+                <li><a href="add-ngo.php">Help/Voulenteer</a></li>
                 <li><a href="donate.php">Donate</a></li>
                 <li><a href="disclaimer.php">Disclaimer</a></li>
                 <li><a href="helpline.php">Helpline</a></li>
@@ -48,11 +48,13 @@
                <div class="collection">
                 <a href="locate-ngo.php" class="collection-item">Locate NGO<span class="badge">'; echo NumberOfPeopleWhoAreHelping(); echo '</span></a>
                 <a href="help-needed.php" class="collection-item">Help Needed<span class="badge">'; echo NumberOfPeopleWhoWantHelp(); echo '</span></a>
-                <a href="need-help.php"class="collection-item" >Need Help</a></li>
+                <a href="need-help.php"class="collection-item" >Request Help</a></li>
                 <a href="find-ngo.php"class="collection-item" >Find NGO by Locality</a></li>
-                <a href="add-ngo.php" class="collection-item">Add NGO</a>
+                <a href="add-ngo.php" class="collection-item">Help/Voulenteer</a>
                 <a href="donate.php"class="collection-item" >Donate</a></li>
-                <a href="helpline.php" class="collection-item">Helpline</a>
+               
+                  <a href="helpline.php" class="collection-item">Helpline</a>
+                  <a href="disclaimer.php" class="collection-item">Disclaimer</a>
                 <a href="about-us.php"class="collection-item" >About Us</a></li>      <!-- Dropdown Trigger -->
                 <a  class="collection-item" data-beloworigin="true" href="#!" ><span>Emergency<i class="material-icons right">arrow_drop_down</i></span></a>
                 <ul>
