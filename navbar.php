@@ -44,6 +44,7 @@
       <li><a href="need-help.php">Need Help</a></li>
       <li><a href="find-ngo.php">Find NGO by Locality</a></li>
       <li><a href="add-ngo.php">Add NGO</a></li>
+      <li><a href="disclamer.php">Disclamer</a></li>
       <li><a href="donate.php">Donate</a></li>
       <li><a href="helpline.php">Helpline</a></li>
       <li><a href="about-us.php">About Us</a></li>      <!-- Dropdown Trigger -->

@@ -38,8 +38,8 @@ function addHelpline($name, $description, $contact){
 	//$typeId is the proof that of where the transaction occurred. 
 	$stmt = $mysqli->prepare("INSERT INTO helpline  (
 		helplineTitle,
-		helplineNumber,
-		description
+		description,
+		helplineNumber
 		)
 		VALUES (
 		?,
@@ -239,13 +239,13 @@ function showHelpline()
 	global $mysqli,$db_table_prefix; 
 	$stmt = $mysqli->prepare("SELECT 
 		helplineTitle,
-		helplineNumber,
-		description
+		description,
+		helplineNumber
         FROM helpline
 		");
 		//$stmt->bind_param($data);
 	$stmt->execute();
-	$stmt->bind_result($helplineTitle, $helplineNumber, $description);
+	$stmt->bind_result($helplineTitle, $description, $helplineNumber);
 	while ($stmt->fetch()){
 		
 		echo ' <div class="row">
