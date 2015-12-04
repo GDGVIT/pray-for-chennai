@@ -242,25 +242,29 @@ function showHelpline()
 
 	global $mysqli,$db_table_prefix; 
 	$stmt = $mysqli->prepare("SELECT 
-		helplineTitle,
-		description,
-		helplineNumber
-        FROM helpline
+		service,
+		area,
+		name,
+		number 
+		FROM
+		contacts
+
 		");
 		//$stmt->bind_param($data);
 	$stmt->execute();
-	$stmt->bind_result($helplineTitle, $description, $helplineNumber);
+	$stmt->bind_result($service, $area, $name, $number);
 	while ($stmt->fetch()){
 		
 		echo ' <div class="row">
         <div class="col s12 m12 l12">
           <div class="card white">
             <div class="card-content black-text">
-              <span class="card-title">'.$helplineTitle.'</span>
-              <p>Description: '.$description.'.</p>
+              <span class="card-title">'.$name.'</span>
+              <p>Description: '.$service.'.</p>
+              <p>Area: '.$area.'</p>
              </div>
             <div class="card-action">
-              <a href="#">Contact: '.$helplineNumber.'</a><br>
+              <a href="#">Contact: '.$number.'</a><br>
               
             </div>
           </div>
