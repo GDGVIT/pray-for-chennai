@@ -61,7 +61,7 @@ include 'analyticstracking.php';
 
             <input type= "hidden" name = "numberOfThePersonWhoIsSafe" value = "<?php echo $contactNumber; ?>">
             <div class="card-action">
-             <center><input type = "submit"></center>
+             <center><input type = "submit" class="waves-effect waves-light btn"></center>
             </div>
           </div>
         </div>

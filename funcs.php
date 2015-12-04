@@ -130,7 +130,7 @@ function showPeopleWhoNeedHelp()
               	<input type = "hidden" name = "name" value = "'.$name.'" > 
               	<input type = "hidden" name = "contact" value = "'.$contact.'" >
 
-              	<input type = "submit" value = "Mark Safe">
+              	<input type = "submit" class = "waves-effect waves-light btn" value = "Mark Safe">
               </form>
               
             </div>
