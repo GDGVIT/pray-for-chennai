@@ -62,7 +62,7 @@
               12-columns-wide on small screens  -->
     <br><br>
        <div class="row">
-          <div class="grid-example col s12"><span class="flow-text">Following is the list of NGOs or individuals who are ready to help you. </span>
+          <div class="grid-example col s12"><span class="flow-text">Following people need your help. </span>
             </div></div>
             </div>
             </div>'
