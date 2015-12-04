@@ -110,11 +110,11 @@ function showPeopleWhoNeedHelp()
 	while ($stmt->fetch()){
 		
 		echo ' <div class="row">
-<<<<<<< HEAD
-        <div class="col s12 l12 m12">
-=======
+
+        <div class="col s12 l9 m12">
+
         <div class="col s12">
->>>>>>> 0d96ce1e698de795cdc88101145a130e891fb562
+
           <div class="card white">
             <div class="card-content black-text">
               <span class="card-title">'.$name.'</span>
@@ -159,7 +159,7 @@ function showPeopleWhoAreGivingHelp()
 	while ($stmt->fetch()){
 		
 		echo ' <div class="row">
-        <div class="col s12 l12 m12">
+        <div class="col s12 l9 m12">
           <div class="card white">
             <div class="card-content black-text">
               <span class="card-title">'.$name.'</span>
@@ -337,7 +337,7 @@ function fetchHelpsByTypeOfHelp($typeOfHelp)
 	while ($stmt->fetch()){
 		
 		echo ' <div class="row">
-        <div class="col s12 m6 l6">
+        <div class="col s12 m12 l6">
           <div class="card white">
             <div class="card-content black-text">
               <span class="card-title">'.$name.'</span>

@@ -85,19 +85,19 @@ if (isset($_POST['name'])) {
                  <div class="row center-align">
                  <form class="col s12" id = "addNGO" method = "POST" action = "add-ngo.php"> 
                    <div class="row">
-                     <div class="input-field col s12 l6 m6 ">
+                     <div class="input-field col s12 l6 m12 ">
                        <input name = "name" placeholder="Your name or NGO name" id="first_name" type="text" class="validate" required>
                        <label for="first_name">Name</label>
                      </div>
                      <div class="row">
-                     <div class="input-field col s12 l6 m6">
+                     <div class="input-field col s12 l6 m12">
                        <input name = "contact" placeholder="Your Contact Number" id="first_name" type="text" class="validate" required>
                        <label for="first_name">Contact</label>
 
                      </div>
                        </div>
                      <div class="row">
-                     <div class="input-field col s12 l6 m6">
+                     <div class="input-field col s12 l6 m12">
                        <textarea name = "address" id="textarea1" class="materialize-textarea"></textarea>
                        <label for="textarea1">Address</label>
 
@@ -106,13 +106,13 @@ if (isset($_POST['name'])) {
                    </div>
 
                    <div class="row">
-                     <div class="input-field col s12 l6 m6">
+                     <div class="input-field col s12 l6 m12">
                        <input name = "area" placeholder="Area you can reach" id="first_name" type="text" class="validate" required>
                        <label for="first_name">Area Reachable</label>
                      </div>
                      </div>
                      <div class = "row">
-                       <div class = "input-field col s12">
+                       <div class = "input-field col s12 l6 m12">
              <label>Type of help</label><br><br>
                <select class="browser-default" name = "type_of_help">
                  <option value="" disabled selected>Choose an option</option>

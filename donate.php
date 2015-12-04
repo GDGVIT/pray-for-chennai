@@ -23,42 +23,8 @@
 
      
 
-<<<<<<< HEAD
-           <div class="col s12 m12 l9"> <!-- Note that "m8 l9" was added -->
-             <!-- Teal page content
-=======
-                    This content will be:
-                3-columns-wide on large screens,
-                4-columns-wide on medium screens,
-                12-columns-wide on small screens  -->
-                <div class="collection">
-                 <a href="find-ngo.php" class="collection-item">Locate NGO/Help<span class="badge">'; echo NumberOfPeopleWhoAreHelping(); echo '</span></a>
-                 <a href="help-needed.php" class="collection-item">Help Needed<span class="badge">'; echo NumberOfPeopleWhoWantHelp(); echo '</span></a>
-                 <a href="need-help.php"class="collection-item" >Request Help</a></li>
-                  
-                 <a href="add-ngo.php" class="collection-item">Help/Volunteer</a>
-                 <a href="donate.php"class="collection-item" >Donate</a></li>
-                
-                  <a href="helpline.php" class="collection-item">Helpline</a>
-                  <a href="disclaimer.php" class="collection-item">Disclaimer</a>
-                 <a href="about-us.php"class="collection-item" >About Us</a></li>      <!-- Dropdown Trigger -->
-                 <a  class="collection-item" data-beloworigin="true" href="#!" ><span>Emergency<i class="material-icons right">arrow_drop_down</i></span></a>
-                 <ul>
-                       <li><a href="#!">Fire & rescue : <p>101</p></a></li>
-                       <li class="divider"></li>
-                       <li><a href="#!">Electricity : <p>1912</p></a></li>
-                       <li class="divider"></li>
-                       <li><a href="#!">District Emergency: <p>1077</p></a></li>
-                       <li class="divider"></li>
-                       <li><a href="#!">State Emergency:<p> 1070  </p></a></li>
-                 </ul>
-               </div>
->>>>>>> 0d96ce1e698de795cdc88101145a130e891fb562
 
-                   This content will be:
-               9-columns-wide on large screens,
-               8-columns-wide on medium screens,
-               12-columns-wide on small screens  -->
+           <div class="col s12 m12 l9">
                   <br><br>
                  <div class="row">
                     <div class="grid-example col s12 m12 center-align"><span class="flow-text">Coming Soon.</span>

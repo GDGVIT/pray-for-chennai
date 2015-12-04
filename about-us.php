@@ -57,7 +57,7 @@
 
           </div>
 
-          <div class="col s12 m8 l9"> <!-- Note that "m8 l9" was added -->
+          <div class="col s12 m12 l9"> <!-- Note that "m8 l9" was added -->
             <!-- Teal page content
 
                   This content will be:
