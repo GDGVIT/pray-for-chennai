@@ -91,7 +91,7 @@ include 'analyticstracking.php';
           </div>
         </div>
       </div>
-
+<!--
       <div class="row">
         <div class="col s12 l9 m12">
           <div class="card white">
@@ -109,7 +109,7 @@ Branch Name: Katpadi</a></p>
           </div>
         </div>
       </div>
-  
+  -->
 
        <div class="row">
         <div class="col s12 l9 m12">

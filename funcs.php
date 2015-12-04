@@ -102,6 +102,8 @@ function showPeopleWhoNeedHelp()
 		area,
 		typeOfHelp
         FROM needhelp
+        WHERE 
+        isSafe = 0
 		ORDER BY id DESC
 		");
 		//$stmt->bind_param($data);
@@ -124,6 +126,12 @@ function showPeopleWhoNeedHelp()
             </div>
             <div class="card-action">
               <a href="#">Contact: '.$contact.'</a><br>
+              <form action = "iAmNowSafe.php" method = "GET">
+              	<input type = "hidden" name = "name" value = "'.$name.'" > 
+              	<input type = "hidden" name = "contact" value = "'.$contact.'" >
+
+              	<input type = "submit" value = "Mark Safe">
+              </form>
               
             </div>
           </div>
@@ -390,5 +398,100 @@ function fetchHelpsByTypeOfHelp($typeOfHelp)
 
 	}
 }
+
+
+// Mark me safe
+
+function iAmSafe($contactOfPersonWhoIsSafe)
+{
+
+	global $mysqli,$db_table_prefix;
+	$stmt = $mysqli->prepare("UPDATE  needhelp
+		SET 
+		isSafe = 1
+		WHERE
+		contact = ?");
+	$stmt->bind_param("s", $contactOfPersonWhoIsSafe);
+	$result = $stmt->execute();
+	echo ' <div class="row">
+                     <div class="grid-example col s12 m12 center-align"><span class="flow-text">Congratulations. You are now marked as safe! :) </span>
+
+            </div>
+';
+	$stmt->close();
+
+}
+
+
+// Insert the name of the person who is hero
+
+function superHero($hero,$hostage){
+	 global $mysqli,$db_table_prefix;
+	//$typeId is the proof that of where the transaction occurred. 
+	$stmt = $mysqli->prepare("INSERT INTO heros (
+		hero,
+		whoWasSaved
+		)
+		VALUES (
+		?,
+		?
+		)");
+	if(!$stmt)  //if there is an error, then it will be shown!. 
+         { // show error                                                                                                       
+         echo $mysqli->error;
+          }
+          else{
+	$stmt->bind_param("ss", $hero, $hostage);
+	$stmt->execute();
+	$stmt->close();
+
+	}
+}
+
+
+//Show need help people....
+
+function showHeroes()
+{
+
+
+	global $mysqli,$db_table_prefix; 
+	$stmt = $mysqli->prepare("SELECT 
+		hero,
+		whoWasSaved
+		FROM heros
+		ORDER BY id DESC
+		");
+		//$stmt->bind_param($data);
+	$stmt->execute();
+	$stmt->bind_result($hero,$hostage);
+	while ($stmt->fetch()){
+		
+		echo ' <div class="row">
+
+        <div class="col s12 l9 m12">
+
+        <div class="col s12">
+
+          <div class="card white">
+            <div class="card-content black-text">
+              <span class="card-title"><center><b>HERO : '.$hero.'</b></center></span>
+              <p><center>Rescued: <i>'.$hostage.'</i></center></p>
+          
+            </div>
+            <div class="card-action">
+            </div>
+          </div>
+        </div>
+      </div>';
+
+			}
+
+
+	
+	$stmt->close();
+
+}
+
 
 ?>

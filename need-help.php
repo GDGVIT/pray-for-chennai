@@ -14,7 +14,7 @@
     include 'funcs.php';
     include 'navbar.php';
     ///backend code to Help/Volunteer
-if (isset($_POST['name'])) {
+if (isset($_POST['name']) && isset($_POST['type_of_help']) && isset($_POST['area'])) {
   # code...
 
     $name = $_POST['name'];
