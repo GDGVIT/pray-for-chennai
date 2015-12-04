@@ -65,7 +65,7 @@ include 'analyticstracking.php';
     include 'navbar.php';
     include 'funcs.php';
 
-    echo ' <div class="content">
+    echo ' <div class="content col s12 m4 l3">
 <input type="text" class="search" id="searchid" placeholder="Search for doctors, area " /><br /> 
 <div id="result">
 </div>
