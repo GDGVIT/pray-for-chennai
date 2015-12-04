@@ -8,6 +8,45 @@
 
       <!--Let browser know website is optimized for mobile-->
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <script type="text/javascript" src="jquery-1.8.0.min.js"></script>
+      <script type="text/javascript">
+$(function(){
+$(".search").keyup(function() 
+{ 
+var searchid = $(this).val();
+var dataString = 'search='+ searchid;
+if(searchid!='')
+{
+  $.ajax({
+  type: "POST",
+  url: "search.php",
+  data: dataString,
+  cache: false,
+  success: function(html)
+  {
+  $("#result").html(html).show();
+  }
+  });
+}return false;    
+});
+
+jQuery("#result").on("click",function(e){ 
+  var $clicked = $(e.target);
+  var $name = $clicked.find('.name').html();
+  var decoded = $("<div/>").html($name).text();
+  $('#searchid').val(decoded);
+});
+jQuery(document).on("click", function(e) { 
+  var $clicked = $(e.target);
+  if (! $clicked.hasClass("search")){
+  jQuery("#result").fadeOut(); 
+  }
+});
+$('#searchid').click(function(){
+  jQuery("#result").fadeIn();
+});
+});
+</script>
       <link rel="stylesheet" type="text/css" href="css/main.css">
     </head>
 
@@ -18,11 +57,20 @@ include 'analyticstracking.php';
 
 ?><title>ReliefChennai-An initiative by VIT'ains</title>
 
-    
+
+
+  
     <?php
 
     include 'navbar.php';
     include 'funcs.php';
+
+    echo ' <div class="content">
+<input type="text" class="search" id="searchid" placeholder="Search for doctors, area " /><br /> 
+<div id="result">
+</div>
+</div>';
+  
     echo ' <br><div class="row">
 
           <div class="col s12 m4 l3 hide-on-med-and-down navleft"> <!-- Note that "m4 l3" was added -->
