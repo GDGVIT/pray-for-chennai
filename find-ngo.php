@@ -12,7 +12,12 @@
       <link rel="stylesheet" type="text/css" href="css/main.css">
     </head>
 
-    <body><title>ReliefChennai-An initiative by VIT'ains</title>
+    <body>
+<?php
+
+include 'analyticstracking.php';
+
+?><title>ReliefChennai-An initiative by VIT'ains</title>
 
 
       <?php
@@ -43,7 +48,7 @@
           </div>
           <form action = "find-ngo.php" method = "GET">
               <div class = "row">
-                       <div class = "input-field col s12 m12 l9">
+                       <div class = "input-field col s12">
              <label>Help required</label><br><br>
                <select class="browser-default" name = "type_of_help">
                  <option value="" disabled selected>Choose an option</option>
@@ -57,11 +62,9 @@
                </select>
                          </div>
                        </div>
-                       <center><input class="btn btn-primary"type = "submit"></center>
+                       <center><input type = "submit"></center>
           </form> 
         </div>
-        </div>
-      
       <!--Import jQuery before materialize.js-->
       <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
       <script type="text/javascript" src="js/materialize.min.js"></script>

@@ -234,6 +234,32 @@ function NumberOfPeopleWhoAreHelping()
 }
 
 
+
+//fetch number of helpline
+
+function NumberOfHelplineContacts()
+{
+	
+	global $mysqli,$db_table_prefix; 
+	$query = "SELECT * FROM contacts";
+	$stmt = $mysqli->prepare($query);
+	//$stmt->bind_param($data);
+	$stmt->execute();
+	//$stmt->bind_result();
+	$number=0;
+	while ($stmt->fetch()){
+		
+		$number++;
+
+
+			}
+
+	return $number;
+			
+	$stmt->close();
+}
+
+
 // Show Helpline 
 
 function showHelpline()

@@ -19,7 +19,12 @@
 
    
 
-    <body><title>ReliefChennai-An initiative by VIT'ains</title>
+    <body>
+<?php
+
+include 'analyticstracking.php';
+
+?><title>ReliefChennai-An initiative by VIT'ains</title>
 
 
   

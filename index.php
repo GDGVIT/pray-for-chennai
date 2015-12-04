@@ -12,7 +12,12 @@
       <!-- <link rel="stylesheet" type="text/css" href="css/main.css"> -->
     </head>
 
-    <body><title>ReliefChennai-An initiative by VIT'ains</title>
+    <body>
+<?php
+
+include 'analyticstracking.php';
+
+?><title>ReliefChennai-An initiative by VIT'ains</title>
 
 
   

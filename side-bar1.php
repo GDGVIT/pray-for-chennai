@@ -14,7 +14,7 @@
                  <a href="add-ngo.php" class="collection-item">Add NGO</a>
                  <a href="donate.php"class="collection-item" >Donate</a></li>
                  <a href="disclaimer.php"class="collection-item" >Disclaimer</a></li>
-                 <a href="helpline.php" class="collection-item">Helpline</a>
+                 <a href="helpline.php" class="collection-item">Helpline<span class="badge"><?php echo  NumberOfHelplineContacts(); ?></span></a>
                  <a href="about-us.php"class="collection-item" >About Us</a></li>
                  <a href="disclaimer.php" class="collection-item" >Disclaimer</a>      <!-- Dropdown Trigger -->
                  <a  class="collection-item" data-beloworigin="true" href="#!" ><span>Emergency<i class="material-icons right">arrow_drop_down</i></span></a>

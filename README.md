@@ -2,6 +2,11 @@
 
 ##An initiative by VIT'ians to help people stuck in Chennai Flood.
 
+##To Do<br>
+1. Search bar.<br>
+2. Donation page.<br>
+3.
+
 <br>
 <h3>Developed By</h3>
 <ul>

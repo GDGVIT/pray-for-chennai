@@ -32,7 +32,12 @@ if (isset($_POST['name'])) {
 
    
 
-    <body><title>ReliefChennai-An initiative by VIT'ains</title>
+    <body>
+<?php
+
+include 'analyticstracking.php';
+
+?><title>ReliefChennai-An initiative by VIT'ains</title>
 
       <div class="row">
           <br>
