@@ -14,18 +14,7 @@
     include 'funcs.php';
     include 'navbar.php';
     ///backend code to add NGO
-if (isset($_POST['name'])) {
-  # code...
 
-    $name = $_POST['name'];
-    $contact = $_POST['contact'];
-    $description = $_POST['description'];
-    addHelpline($_POST['name'],$_POST['description'], $_POST['contact']);
-    echo ' <div class="row">
-          <div class="grid-example col s12 l12 m12"><span class="flow-text">Thankyou for your support. Your response is recorded and would be shown in our database. <a href = "index.php" >Go Back</a></span></div></div>';
-        }
-
-        else {
     ?>
 
    
@@ -77,7 +66,7 @@ if (isset($_POST['name'])) {
               12-columns-wide on small screens  -->
     <br><br>
         <div class="row">
-          <div class="grid-example col s12 l12 m12 center-align"><span class="flow-text">If you want to help, please fill up the form</span></div>
+          <div class="grid-example col s12 l12 m12 center-align"><span class="flow-text"><center>DISCLAIMER</center></span></div>
     
     </div>
     <div class="row">
@@ -104,8 +93,3 @@ if (isset($_POST['name'])) {
       </script>
     </body>
   </html>
-
-  <?php
-
-}
-  ?>
