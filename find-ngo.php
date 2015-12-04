@@ -44,13 +44,13 @@
           <form action = "find-ngo.php" method = "GET">
               <div class = "row">
                        <div class = "input-field col s12">
-             <label>Type of help</label><br><br>
+             <label>Help required</label><br><br>
                <select class="browser-default" name = "type_of_help">
                  <option value="" disabled selected>Choose an option</option>
                  <option value = "all">All</option>
                  <option value="Food">Food</option>
                  <option value="Evacuation">Evacuation</option>
-                 <option value="Venue">Venue</option>
+                 <option value="Venue">Shelter</option>
                  <option value="Medical">Medical</option>
                  <option value="Other">Other</option>
 
