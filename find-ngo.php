@@ -12,7 +12,7 @@
       <link rel="stylesheet" type="text/css" href="css/main.css">
     </head>
 
-    <body>
+    <body><title>ReliefChennai-An initiative by VIT'ains</title>
 
 
       <?php
