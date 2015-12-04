@@ -30,11 +30,11 @@
               4-columns-wide on medium screens,
               12-columns-wide on small screens  -->
               <div class="collection">
-                <a href="find-ngo.php" class="collection-item">Locate NGO<span class="badge">'; echo NumberOfPeopleWhoAreHelping(); echo '</span></a>
+                <a href="find-ngo.php" class="collection-item">Locate NGO/Help<span class="badge">'; echo NumberOfPeopleWhoAreHelping(); echo '</span></a>
                 <a href="help-needed.php" class="collection-item">Help Needed<span class="badge">'; echo NumberOfPeopleWhoWantHelp(); echo '</span></a>
                 <a href="need-help.php"class="collection-item" >Request Help</a></li>
                  
-                <a href="add-ngo.php" class="collection-item">Help/Voulenteer</a>
+                <a href="add-ngo.php" class="collection-item">Help/Volunteer</a>
                 <a href="donate.php"class="collection-item" >Donate</a></li>
                
                   <a href="helpline.php" class="collection-item">Helpline</a>

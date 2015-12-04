@@ -34,11 +34,11 @@
               4-columns-wide on medium screens,
               12-columns-wide on small screens  
               <ul >
-                <li><a href="find-ngo.php">Locate NGO</a></li>
+                <li><a href="find-ngo.php">Locate NGO/Help</a></li>
                 <li><a href="help-needed.php">People(Need Help)</a></li>
                 <li><a href="need-help.php">Request Help</a></li>
                 <li><a href="find-ngo.php">Find NGO by Locality</a></li>
-                <li><a href="add-ngo.php">Help/Voulenteer</a></li>
+                <li><a href="add-ngo.php">Help/Volunteer</a></li>
                 <li><a href="donate.php">Donate</a></li>
                 <li><a href="disclaimer.php">Disclaimer</a></li>
                 <li><a href="helpline.php">Helpline</a></li>
@@ -46,11 +46,11 @@
                 <li><a class="dropdown-button" href="#!" data-activates="dropdown2">Emergency<i class="material-icons right">arrow_drop_down</i></a></li>
               </ul>-->
                <div class="collection">
-                <a href="find-ngo.php" class="collection-item">Locate NGO<span class="badge">'; echo NumberOfPeopleWhoAreHelping(); echo '</span></a>
+                <a href="find-ngo.php" class="collection-item">Locate NGO/Help<span class="badge">'; echo NumberOfPeopleWhoAreHelping(); echo '</span></a>
                 <a href="help-needed.php" class="collection-item">Help Needed<span class="badge">'; echo NumberOfPeopleWhoWantHelp(); echo '</span></a>
                 <a href="need-help.php"class="collection-item" >Request Help</a></li>
                  
-                <a href="add-ngo.php" class="collection-item">Help/Voulenteer</a>
+                <a href="add-ngo.php" class="collection-item">Help/Volunteer</a>
                 <a href="donate.php"class="collection-item" >Donate</a></li>
                
                   <a href="helpline.php" class="collection-item">Helpline</a>
