@@ -69,7 +69,7 @@ include 'analyticstracking.php';
                 12-columns-wide on small screens  -->
                    <br><br>
                   <div class="row">
-                     <div class="grid-example col s12 m12 center-align"><span class="flow-text">Coming Soon.</span>
+                     <div class="grid-example col s12 m12 center-align"><span class="flow-text">Please donate to help people.</span>
 
             </div>
 
@@ -92,6 +92,23 @@ include 'analyticstracking.php';
         </div>
       </div>
 
+      <div class="row">
+        <div class="col s12 l9 m12">
+          <div class="card white">
+            <div class="card-content black-text">
+              <span class="card-title">Gowtham Babu</span>
+              <p>To donate: <a href="#">Bank: City Union Bank<br> 
+Account Number: 293001002251213<br>
+IFSC Code: CIUB0000293<br>
+Branch Name: Katpadi</a></p>
+              <p>Currency : INR</p>
+            </div>
+            <div class="card-action">
+             
+            </div>
+          </div>
+        </div>
+      </div>
   
 
        <div class="row">
