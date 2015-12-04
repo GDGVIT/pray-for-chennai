@@ -88,7 +88,7 @@
           </div>
     <div class="grid-example col s12 m6 l6"><span class="flow-text">Help Line</span>';
 
-    showPeopleWhoAreGivingHelp();
+    showHelpline();
     echo '
     </div>
     

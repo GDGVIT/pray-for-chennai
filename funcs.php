@@ -271,4 +271,50 @@ function showHelpline()
 
 }
 
+
+// fetch helps by type of help...
+
+function fetchHelpsByTypeOfHelp($typeOfHelp)
+{
+
+
+	global $mysqli,$db_table_prefix; 
+	$stmt = $mysqli->prepare("SELECT 
+		name,
+		address,
+		contact,
+		typeOfHelp,
+		areaCovered
+        FROM addngo
+        WHERE 
+        typeOfHelp = ?
+		");
+		$stmt->bind_param("s", $typeOfHelp);
+	$stmt->execute();
+	$stmt->bind_result($name, $address, $contact, $typeOfHelp, $areaCovered);
+	while ($stmt->fetch()){
+		
+		echo ' <div class="row">
+        <div class="col s12 m6 l6">
+          <div class="card white">
+            <div class="card-content black-text">
+              <span class="card-title">'.$name.'</span>
+              <p>Address: '.$address.'.</p>
+             </div>
+            <div class="card-action">
+              <a href="#">Contact: '.$contact.'</a><br>
+              
+            </div>
+          </div>
+        </div>
+      </div>';
+
+			}
+
+
+	
+	$stmt->close();
+
+}
+
 ?>
