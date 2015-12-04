@@ -76,7 +76,54 @@ include 'analyticstracking.php';
           </div>';
 
         
-?>  
+?> 
+<div class="row">
+        <div class="col s12 l9 m12">
+          <div class="card white">
+            <div class="card-content black-text">
+              <span class="card-title">AID India</span>
+              <p>To donate: <a href="https://secure.aidindia.org/donate/tnfloods">Click here</a></p>
+              <p>Currency : USD</p>
+            </div>
+            <div class="card-action">
+             
+            </div>
+          </div>
+        </div>
+      </div>
+
+  
+
+       <div class="row">
+        <div class="col s12 l9 m12">
+          <div class="card white">
+            <div class="card-content black-text">
+              <span class="card-title">BHUMI</span>
+              <p>To donate: <a href="https://letzchange.org/projects/chennai-flood-relief/">Click here</a></p>
+              <p>Currency : USD</p>
+            </div>
+            <div class="card-action">
+             
+            </div>
+          </div>
+        </div>
+      </div>
+
+         <div class="row">
+        <div class="col s12 l9 m12">
+          <div class="card white">
+            <div class="card-content black-text">
+              <span class="card-title">Chennai Micro Fund (RJ Balaji)</span>
+              <p>To donate: <a href="https://twitter.com/rj_balaji/status/672426712307646464">Click here</a></p>
+              <p>A/C Name: V Trust, A/C No.: 533102010503421, UNION BANK OF INDIA, IFSC CODE: UBIN0553310</p>
+              <p>Currency : INR</p>
+            </div>
+            <div class="card-action">
+             
+            </div>
+          </div>
+        </div>
+      </div>
       <!--Import jQuery before materialize.js-->
       <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
       <script type="text/javascript" src="js/materialize.min.js"></script>
