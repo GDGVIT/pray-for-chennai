@@ -8,6 +8,7 @@
 
       <!--Let browser know website is optimized for mobile-->
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <meta name="google-site-verification" content="v32lxpOz3ctNMPH44Hwf8GXnFyhs-dbOXdKTLS6cztI" />
       <link rel="stylesheet" type="text/css" href="css/main.css">
       <!-- <link rel="stylesheet" type="text/css" href="css/main.css"> -->
     </head>
