@@ -35,7 +35,7 @@
 </ul>
 <nav>
   <div class="nav-wrapper">
-    <a href="index.php" class="brand-logo" style="margin-left:15px;">PrayForChennai</a>
+    <a href="index.php" class="brand-logo" style="margin-left:15px;">ReliefChennai</a>
     <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
    
     <ul class="side-nav" id="mobile-demo" >
