@@ -39,11 +39,11 @@
     <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
    
     <ul class="side-nav" id="mobile-demo" >
-      <li><a href="locate-ngo.php">Locate NGO</a></li>
+      <li><a href="find-ngo.php">Locate NGO/Help</a></li>
       <li><a href="help-needed.php">People(Need Help)</a></li>
-      <li><a href="need-help.php">Need Help</a></li>
+      <li><a href="need-help.php">Request Help</a></li>
       <li><a href="find-ngo.php">Find NGO by Locality</a></li>
-      <li><a href="add-ngo.php">Add NGO</a></li>
+      <li><a href="add-ngo.php">Help/Volunteer</a></li>
       <li><a href="disclaimer.php">Disclaimer</a></li>
       <li><a href="donate.php">Donate</a></li>
       <li><a href="helpline.php">Helpline</a></li>

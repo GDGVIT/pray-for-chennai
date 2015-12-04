@@ -47,6 +47,7 @@
              <label>Type of help</label><br><br>
                <select class="browser-default" name = "type_of_help">
                  <option value="" disabled selected>Choose an option</option>
+                 <option value = "all">All</option>
                  <option value="Food">Food</option>
                  <option value="Evacuation">Evacuation</option>
                  <option value="Venue">Venue</option>
