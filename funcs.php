@@ -299,7 +299,7 @@ function fetchHelpsByTypeOfHelp($typeOfHelp)
 	while ($stmt->fetch()){
 		
 		echo ' <div class="row">
-        <div class="col s12 m12 l12">
+        <div class="col s12 m12 l9">
           <div class="card white">
             <div class="card-content black-text">
               <span class="card-title">'.$name.'</span>
