@@ -65,11 +65,7 @@ include 'analyticstracking.php';
     include 'navbar.php';
     include 'funcs.php';
 
-    echo ' <div class="content col s12 m4 l3">
-<input type="text" class="search" id="searchid" placeholder="Search for doctors, area " /><br /> 
-<div id="result">
-</div>
-</div>';
+   
   
     echo ' <br><div class="row">
 
@@ -115,7 +111,12 @@ include 'analyticstracking.php';
               12-columns-wide on small screens  -->
                 <br><br>
        <div class="row">
-          <div class="grid-example col s12"><span class="flow-text"><center>HELPLINE</center> </span>
+          <div class="grid-example col s12 m12 l12"><span class="flow-text"><center>HELPLINE</center> </span>
+            <div class="content col s12 m12 l12">
+<input type="text" class="search" id="searchid" placeholder="Search for doctors, area " /><br /> 
+<div id="result">
+</div>
+</div>
             </div>
             </div>';
 

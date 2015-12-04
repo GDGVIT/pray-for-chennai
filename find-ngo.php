@@ -34,7 +34,7 @@ include 'analyticstracking.php';
       ?>
     
 
- <div class="col s12 m12 l9"> <!-- Note that "m8 l9" was added -->
+ <div class="col s12 m8 l9"> <!-- Note that "m8 l9" was added -->
             <!-- Teal page content
 
                   This content will be:
@@ -42,13 +42,13 @@ include 'analyticstracking.php';
               8-columns-wide on medium screens,
               12-columns-wide on small screens  -->
                  <br><br>
-                <div class="row">
-                   <div class="grid-example col s12 m12 center-align"><span class="flow-text">Find by type of help</span>
+                
+                   <div class="grid-example col s12 m12 l12 center-align"><span class="flow-text">Find by type of help</span>
 
           </div>
           <form action = "find-ngo.php" method = "GET">
               <div class = "row">
-                       <div class = "input-field col s12">
+                       <div class = "input-field col s12 m12 l12">
              <label>Help required</label><br><br>
                <select class="browser-default" name = "type_of_help">
                  <option value="" disabled selected>Choose an option</option>
@@ -62,9 +62,10 @@ include 'analyticstracking.php';
                </select>
                          </div>
                        </div>
-                       <center><input type = "submit"></center>
+                       <center><input class="btn btn-primary"type = "submit"></center>
           </form> 
-        </div>
+        
+        
       <!--Import jQuery before materialize.js-->
       <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
       <script type="text/javascript" src="js/materialize.min.js"></script>

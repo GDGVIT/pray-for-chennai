@@ -328,7 +328,7 @@ function fetchHelpsByTypeOfHelp($typeOfHelp)
 	$stmt->bind_result($name, $address, $contact, $typeOfHelp, $areaCovered);
 	while ($stmt->fetch()){
 		
-		echo ' <div class="row">
+		echo ' 
         <div class="col s12 m12 l9">
           <div class="card white">
             <div class="card-content black-text">
@@ -341,7 +341,7 @@ function fetchHelpsByTypeOfHelp($typeOfHelp)
             </div>
           </div>
         </div>
-      </div>';
+      ';
 
 			}
 

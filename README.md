@@ -12,5 +12,6 @@
 <ul>
 <li>Ashwini Purohit - Frontend & Backend developer</li>
 <li>Vignesh Sankar - Marketing lead</li>
+<li>Rishi Raj - Front End Developer</li>
 <li>Thiyagraj</li>
 </ul>
