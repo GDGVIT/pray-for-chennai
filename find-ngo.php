@@ -18,6 +18,7 @@
       <?php
         include 'funcs.php';
         include 'navbar.php';
+        include 'side-bar1.php';
         if (isset($_GET['type_of_help'])) {
           # code...
           $typeOfHelp = $_GET['type_of_help'];
@@ -28,7 +29,7 @@
       ?>
     
 
- <div class="col s12 m8 l9"> <!-- Note that "m8 l9" was added -->
+ <div class="col s12 m12 l9"> <!-- Note that "m8 l9" was added -->
             <!-- Teal page content
 
                   This content will be:

@@ -41,7 +41,7 @@
               <a href="helpline.php" class="collection-item">Helpline</a>
               <a href="about-us.php"class="collection-item" >About Us</a></li>      <!-- Dropdown Trigger -->
               <a  class="collection-item" data-beloworigin="true" href="#!" ><span>Emergency<i class="material-icons right">arrow_drop_down</i></span></a>
-              <ul>
+              <ul >
                         <li><a href="#!">Fire & rescue : <p>101</p></a></li>
                         <li class="divider"></li>
                         <li><a href="#!">Electricity : <p>1912</p></a></li>
@@ -55,7 +55,7 @@
 
           </div>
 
-          <div class="col s12 m12 l9"> <!-- Note that "m8 l9" was added -->
+          <div class="col s12 m8 l9"> <!-- Note that "m8 l9" was added -->
             <!-- Teal page content
 
                   This content will be:

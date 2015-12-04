@@ -49,7 +49,7 @@
       <li><a href="helpline.php">Helpline</a></li>
       <li><a href="about-us.php">About Us</a></li>      <!-- Dropdown Trigger -->
       
-      <ul class="collection">
+      <ul class="collection" style="padding:10px;">
                         <li><a class="collection-item"href="#!">Fire & rescue : <p>101</p></a></li>
                         <li class="divider"></li>
                         <li><a class="collection-item"href="#!">Electricity : <p>1912</p></a></li>

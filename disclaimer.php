@@ -57,7 +57,7 @@
 
           </div>
 
-          <div class="col s12 m8 l9"> <!-- Note that "m8 l9" was added -->
+          <div class="col s12 m12 l9"> <!-- Note that "m8 l9" was added -->
             <!-- Teal page content
 
                   This content will be:
@@ -70,7 +70,7 @@
     
     </div>
     <div class="row">
-      <div class="col s12 m5">
+      <div class="col s12 m12">
         <div class="card-panel teal">
           <span class="white-text">ChennaiRainsHelp.org is a social initiative to help people affected by floods caused by the heavy rains in Chennai, Tamil Nadu. The information provided in the website has been collected from social media handles, articles, forwarded messages on mobile and similar kind of unverified public resources. Also the information is crowd sourced, volunteers and users of the website are submitting information which can be relevant according to them which may be useful for the affected people. ChennaiRainsHelp.org does not hold any accountability towards the information provided in website under the "Help" section or any outcomes of it.
           </span>
