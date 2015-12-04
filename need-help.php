@@ -98,7 +98,7 @@ if (isset($_POST['name'])) {
         <div class="row">
         <div class="input-field col s12">
           <textarea name = "address" id="textarea1" class="materialize-textarea"></textarea>
-          <label for="textarea1">Location you need help</label>
+          <label for="textarea1">Address and Cause(if serious problem) </label>
 
 
         </div>
