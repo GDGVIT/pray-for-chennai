@@ -15,17 +15,20 @@
     <body>
 <?php
 
-include 'analyticstracking.php';
-
-?><title>ReliefChennai-An initiative by VIT'ains</title>
-
-
-  
-    <?php
-
-    include 'navbar.php';
+include 'navbar.php';
     include 'funcs.php';
     include  'side-bar1.php';
+include 'analyticstracking.php';
+
+?>
+
+<title>ReliefChennai-An initiative by VIT'ains</title>
+
+
+
+    <?php
+
+    
 
 
     echo '
@@ -41,6 +44,13 @@ include 'analyticstracking.php';
        
     
        <div class="row">
+       <div class="grid-example col s12">
+    <a href="http://www.accuweather.com/en/in/chennai/206671/weather-forecast/206671" class="aw-widget-legal">
+<!--
+By accessing and/or using this code snippet, you agree to AccuWeather’s terms and conditions (in English) which can be found at http://www.accuweather.com/en/free-weather-widgets/terms and AccuWeather’s Privacy Statement (in English) which can be found at http://www.accuweather.com/en/privacy.
+-->
+</a><div id="awcc1449234306924" class="aw-widget-current"  data-locationkey="206671" data-unit="c" data-language="en-us" data-useip="false" data-uid="awcc1449234306924"></div><script type="text/javascript" src="http://oap.accuweather.com/launch.js"></script>
+</div>
           <div class="grid-example col s12"><span class="flow-text">People who need help</span>
             ';
 
