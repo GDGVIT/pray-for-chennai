@@ -81,6 +81,29 @@ include 'analyticstracking.php';
         <div class="col s12 l9 m12">
           <div class="card white">
             <div class="card-content black-text">
+              <span class="card-title">VIT UNIVERSITY RELIEF FUND A/C</span>
+              <p>Donate details: <br>Account Name : VIT UNIVERSITY RELIEF FUND A/C<br>
+                Account Number : 6391947767<br>
+                  Account type : Saving<br>
+                  Bank Name : Indian Bank<br>
+                  Branch Details : VIT Branch, VIT Campus, VIT University, Vellore - 632 014<br>
+                  <br>Branch CBS Code: 01585<br>
+                  IFSC Code : IDIB000V086<br>
+                  MICR Code: 632019008
+
+              </p>
+              <p>Currency : INR</p>
+            </div>
+            <div class="card-action">
+             
+            </div>
+          </div>
+        </div>
+      </div>
+
+       <div class="col s12 l9 m12">
+          <div class="card white">
+            <div class="card-content black-text">
               <span class="card-title">AID India</span>
               <p>To donate: <a href="https://secure.aidindia.org/donate/tnfloods">Click here</a></p>
               <p>Currency : USD</p>

@@ -67,7 +67,7 @@ include 'analyticstracking.php';
               12-columns-wide on small screens  -->
                 <br><br>
        <div class="row">
-          <div class="grid-example col s12"><span class="flow-text"><center>HELPLINE</center> </span>
+          <div class="grid-example col s12"><span class="flow-text"><center>THE REAL HEROES</center> </span>
             </div>
             </div>';
 
