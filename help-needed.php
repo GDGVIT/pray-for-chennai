@@ -11,7 +11,7 @@
       <link rel="stylesheet" type="text/css" href="css/main.css">
     </head>
 
-    <body>
+    <body><title>ReliefChennai-An initiative by VIT'ains</title>
 
     
     <?php
@@ -34,7 +34,7 @@
               12-columns-wide on small screens  -->
     <br><br>
        <div class="row">
-          <div class="grid-example col s12 m12 l9"><span class="flow-text">Following is the list of NGOs or individuals who are ready to help you. </span>
+          <div class="grid-example col s12 m12 l9"><span class="flow-text">Following need your help. </span>
             </div></div>
             '
             ;

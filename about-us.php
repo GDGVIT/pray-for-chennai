@@ -11,7 +11,7 @@
       <link rel="stylesheet" type="text/css" href="css/main.css">
     </head>
 
-    <body>
+    <body><title>ReliefChennai-An initiative by VIT'ains</title>
 
 
   
@@ -43,7 +43,7 @@
                   <a href="disclaimer.php" class="collection-item">Disclaimer</a>
               <a href="about-us.php"class="collection-item" >About Us</a></li>      <!-- Dropdown Trigger -->
               <a  class="collection-item" data-beloworigin="true" href="#!" ><span>Emergency<i class="material-icons right">arrow_drop_down</i></span></a>
-              <ul >
+              <ul>
                         <li><a href="#!">Fire & rescue : <p>101</p></a></li>
                         <li class="divider"></li>
                         <li><a href="#!">Electricity : <p>1912</p></a></li>

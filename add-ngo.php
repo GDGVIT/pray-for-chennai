@@ -32,7 +32,7 @@ if (isset($_POST['name'])) {
 
    
 
-    <body>
+    <body><title>ReliefChennai-An initiative by VIT'ains</title>
 
 
    <div class="row">
@@ -118,7 +118,7 @@ if (isset($_POST['name'])) {
                  <option value="" disabled selected>Choose an option</option>
                  <option value="Food">Food</option>
                  <option value="Evacuation">Evacuation</option>
-                 <option value="Venue">Venue</option>
+                 <option value="Venue">Shelter</option>
                  <option value="Medical">Medical</option>
                  <option value="Other">Other</option>
 
