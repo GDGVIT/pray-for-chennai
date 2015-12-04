@@ -83,6 +83,7 @@ if(!d.getElementById(id)){
 	fjs.parentNode.insertBefore(js,fjs);}}
 	(document,"script","twitter-wjs");
 </script>
+<<<<<<< HEAD
 </center>
 </div>
 
@@ -101,3 +102,5 @@ if(!d.getElementById(id)){
       <script type="text/javascript" src="js/materialize.min.js"></script>
     </body>
   </html> 
+=======
+>>>>>>> db1d937047f21556e3ba79a2115ce63e3c10cbb8
