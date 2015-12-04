@@ -82,18 +82,19 @@
        
     
        <div class="row">
-          <div class="grid-example col s12 m6 l6"><span class="flow-text">People who need help</span>
+          <div class="grid-example col s12"><span class="flow-text">People who need help</span>
             ';
 
     showPeopleWhoNeedHelp();
     echo '
           </div>
+   <!--
     <div class="grid-example col s12 m6 l6"><span class="flow-text">Help Line</span>';
 
-    showHelpline();
+    //showHelpline();
     echo '
     </div>
-    
+    -->
     </div>';
 
 
