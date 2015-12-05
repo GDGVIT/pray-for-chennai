@@ -64,7 +64,7 @@ include 'analyticstracking.php';
     include 'side-bar1.php';
     echo '
 
-          <div class="col s12 m9 l12"> <!-- Note that "m8 l9" was added -->
+          <div class="col s12 m12 l9"> <!-- Note that "m8 l9" was added -->
             <!-- Teal page content
 
                   This content will be:
