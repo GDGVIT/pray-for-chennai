@@ -54,14 +54,13 @@ include 'analyticstracking.php';
                 <a href="find-ngo.php" class="collection-item">Locate NGO/Help<span class="badge"><?php echo NumberOfPeopleWhoAreHelping(); ?></span></a>
                 <a href="help-needed.php" class="collection-item">Help Needed<span class="badge"><?php echo NumberOfPeopleWhoWantHelp(); ?></span></a>
                 <a href="need-help.php"class="collection-item" >Request Help</a>
+                 <a href="livestatus.php"class="collection-item" >Live Status</a>
                  
                 <a href="add-ngo.php" class="collection-item">Help/Volunteer</a>
                 <a href="donate.php"class="collection-item" >Donate</a>
                 <a href="news.php"class="collection-item" >Follow the news</a>
                
-                  <a href="helpline.php" class="collection-item">Helpline</a>
-                  <a href="disclaimer.php" class="collection-item">Disclaimer</a>
-                <a href="about-us.php"class="collection-item" >About Us</a>      <!-- Dropdown Trigger -->
+                  <a href="helpline.php" class="collection-item">Helpline</a>   <!-- Dropdown Trigger -->
                 <a  class="collection-item" data-beloworigin="true" href="#!" ><span>Emergency<i class="material-icons right">arrow_drop_down</i></span></a>
                 <ul>
                       <li><a href="#!">Fire & rescue : <p>101</p></a></li>

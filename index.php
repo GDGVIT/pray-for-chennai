@@ -45,7 +45,7 @@ include 'analyticstracking.php';
        
     
        <div class="row">
-       <div class="grid-example col s12">
+       <div class="grid-example col s12 l12 m12">
     <a href="http://www.accuweather.com/en/in/chennai/206671/weather-forecast/206671" class="aw-widget-legal">
 <!--
 By accessing and/or using this code snippet, you agree to AccuWeather’s terms and conditions (in English) which can be found at http://www.accuweather.com/en/free-weather-widgets/terms and AccuWeather’s Privacy Statement (in English) which can be found at http://www.accuweather.com/en/privacy.

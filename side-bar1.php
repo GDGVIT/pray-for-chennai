@@ -14,12 +14,11 @@
                  <a href="add-ngo.php" class="collection-item">Add NGO</a>
                  <a href="donate.php"class="collection-item" >Donate</a>
                   <a href="news.php"class="collection-item" >Follow the News</a>
-                 <a href="disclaimer.php"class="collection-item" >Disclaimer</a>
+                  <a href="livestatus.php" class="collection-item">Live Status</a>
+                
                  <a href="helpline.php" class="collection-item">Helpline<span class="badge"><?php echo  NumberOfHelplineContacts(); ?></span></a>
                  
-                 <a href="heroes.php" class="collection-item">Heroes</a>
-                 <a href="about-us.php"class="collection-item" >About Us</a>
-                 <a href="disclaimer.php" class="collection-item" >Disclaimer</a>      <!-- Dropdown Trigger -->
+                 <a href="heroes.php" class="collection-item">Heroes</a>     <!-- Dropdown Trigger -->
                  <a  class="collection-item" data-beloworigin="true" href="#!" ><span>Emergency<i class="material-icons right">arrow_drop_down</i></span></a>
                  <ul >
                        <li><a href="#!">Fire & rescue : <p>101</p></a></li>
