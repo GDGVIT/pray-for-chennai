@@ -10,14 +10,15 @@
                 <div class="collection">
                  <a href="find-ngo.php" class="collection-item">Locate NGO/Volunteers<span class="badge"><?php echo NumberOfPeopleWhoAreHelping(); ?></span></a>
                  <a href="help-needed.php" class="collection-item">Help Needed<span class="badge"><?php echo NumberOfPeopleWhoWantHelp(); ?></span></a>
-                 <a href="need-help.php"class="collection-item" >Need Help</a></li>
+                 <a href="need-help.php"class="collection-item" >Need Help</a>
                  <a href="add-ngo.php" class="collection-item">Add NGO</a>
-                 <a href="donate.php"class="collection-item" >Donate</a></li>
-                 <a href="disclaimer.php"class="collection-item" >Disclaimer</a></li>
+                 <a href="donate.php"class="collection-item" >Donate</a>
+                  <a href="news.php"class="collection-item" >Follow the News</a>
+                 <a href="disclaimer.php"class="collection-item" >Disclaimer</a>
                  <a href="helpline.php" class="collection-item">Helpline<span class="badge"><?php echo  NumberOfHelplineContacts(); ?></span></a>
-                 <a href="news.php" class="collection-item">News Feed</a>
+                 
                  <a href="heroes.php" class="collection-item">Heroes</a>
-                 <a href="about-us.php"class="collection-item" >About Us</a></li>
+                 <a href="about-us.php"class="collection-item" >About Us</a>
                  <a href="disclaimer.php" class="collection-item" >Disclaimer</a>      <!-- Dropdown Trigger -->
                  <a  class="collection-item" data-beloworigin="true" href="#!" ><span>Emergency<i class="material-icons right">arrow_drop_down</i></span></a>
                  <ul >

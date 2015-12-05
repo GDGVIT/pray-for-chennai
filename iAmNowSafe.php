@@ -46,7 +46,7 @@ include 'analyticstracking.php';
           </div>
           <form action = "iAmNowSafe.php" method = "GET">
                  <div class="row">
-        <div class="col s12 l9 m12">
+        <div class="col s12 l12 m12">
           <div class="card white">
             <div class="card-content black-text">
               <span class="card-title">Name : <?php echo $nameOfThePerson; ?></span>

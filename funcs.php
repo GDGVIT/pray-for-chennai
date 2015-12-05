@@ -469,7 +469,7 @@ function showHeroes()
 		
 		echo ' <div class="row">
 
-        <div class="col s12 l9 m12">
+        <div class="col s12 l12 m12">
 
         <div class="col s12">
 
