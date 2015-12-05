@@ -12,10 +12,14 @@
       #map {
         height: 100%;
       }
+      select{
+        display: block !important;
+      }
 #floating-panel {
   position: absolute;
-  top: 10px;
-  left: 25%;
+  top: 65px;
+  left:30%;
+
   z-index: 5;
   background-color: #fff;
   padding: 5px;
@@ -25,6 +29,11 @@
   line-height: 30px;
   padding-left: 10px;
 }
+@media screen only and (max-width: 768px){
+  #floating-panel{
+    left: 0% !important; 
+  }
+} 
 
     </style>
 
@@ -45,7 +54,7 @@
 
 include 'analyticstracking.php';
 
-?><title>ReliefChennai-An initiative by VIT'ains</title>
+?>
 
     
     <?php
@@ -55,14 +64,14 @@ include 'analyticstracking.php';
     include 'side-bar1.php';
     echo '
 
-          <div class="col s12 m12 l9"> <!-- Note that "m8 l9" was added -->
+          <div class="col s12 m9 l12"> <!-- Note that "m8 l9" was added -->
             <!-- Teal page content
 
                   This content will be:
               9-columns-wide on large screens,
               8-columns-wide on medium screens,
               12-columns-wide on small screens  -->
-                <div id="floating-panel">
+                <div id="floating-panel" class="col l8 m4 s8">
     <b>Start: (Unsafe Places)</b>
     <select id="start" onchange="calcRoute();">
       <option value="Velachery Bypass Road, Balaji Nagar, Chennai, Tamil Nadu">Velachery Bypass Road, Balaji Nagar, Chennai, Tamil Nadu</option>
