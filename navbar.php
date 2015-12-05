@@ -37,12 +37,17 @@
   <div class="nav-wrapper">
     <a href="index.php" class="brand-logo" style="margin-left:15px;">ReliefChennai</a>
     <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+    <ul class="right hide-on-med-and-down">
+              <li><a href="about-us.php">About Us</a></li>
+              <li><a href="disclaimer.php">Disclaimer</a></li>
+            </ul>
    
     <ul class="side-nav" id="mobile-demo" >
       <li><a href="find-ngo.php">Locate NGO/Help</a></li>
       <li><a href="help-needed.php">People(Need Help)</a></li>
       <li><a href="need-help.php">Request Help</a></li>
       <li><a href="find-ngo.php">Find NGO by Locality</a></li>
+       <li><a href="livestatus.php"class="collection-item" >Live Status</a></li>
       <li><a href="add-ngo.php">Help/Volunteer</a></li>
       <li><a href="disclaimer.php">Disclaimer</a></li>
       <li><a href="news.php">Follow the news</a></li>
