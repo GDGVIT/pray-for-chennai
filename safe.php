@@ -126,7 +126,7 @@ include 'analyticstracking.php';
     </div>
     <div id="map"></div>
     
-;'
+';  
 
         
 ?>  

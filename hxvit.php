@@ -55,6 +55,7 @@ include 'analyticstracking.php';
                 <a href="help-needed.php" class="collection-item">Help Needed<span class="badge">'; echo NumberOfPeopleWhoWantHelp(); echo '</span></a>
                 <a href="need-help.php"class="collection-item" >Request Help</a>
                   <a href="livestatus.php"class="collection-item" >Live Status</a>
+                  <a href="safe.php" class="collection-item">Find Safe Place</a>
                 <a href="add-ngo.php" class="collection-item">Help/Volunteer</a>
                 <a href="donate.php"class="collection-item" >Donate</a>
                <a href="news.php"class="collection-item" >Follow the news</a>s
