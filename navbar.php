@@ -54,6 +54,7 @@
       <li><a href="news.php">Follow the news</a></li>
       <li><a href="donate.php">Donate</a></li>
       <li><a href="helpline.php">Helpline</a></li>
+       <a href="sos.php" class="collection-item">Chennai Flood Reliefs</a>
       <li><a href="about-us.php">About Us</a></li>      <!-- Dropdown Trigger -->
       
       <ul class="collection" style="padding:10px;">

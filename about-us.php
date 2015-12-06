@@ -44,7 +44,7 @@ include 'analyticstracking.php';
               <a href="add-ngo.php" class="collection-item">Help/Volunteer</a>
               <a href="donate.php"class="collection-item" >Donate</a>
                <a href="news.php"class="collection-item" >Follow the news</a>
-             
+              <a href="sos.php" class="collection-item">Chennai Flood Reliefs</a>
                   <a href="helpline.php" class="collection-item">Helpline</a>  <!-- Dropdown Trigger -->
               <a  class="collection-item" data-beloworigin="true" href="#!" ><span>Emergency<i class="material-icons right">arrow_drop_down</i></span></a>
               <ul>
