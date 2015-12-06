@@ -2,6 +2,19 @@
   <head>
     <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
     <meta charset="utf-8">
+    <meta name="language" content="en-us"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="description" content="Team Relief Chennai | We are a small group of people who took up an initiative to help and rescue people stuck up in floods in Chennai.
+    " />
+    <meta name="keywords" content="Chennai, Rains, Floods, pray for chennai, chennai rains, rescue, help, ngo, chennai support, chennai sos, chennai emergency" />
+    <meta name="distribution" content="Global" />
+    <meta name="robots" content="index, follow" />
+    <meta name="revisit-after" content="1 days"/>
+    <meta name="copyright" content="Relief Chennai"/>
+    
+    <meta charset="utf-8">
     <title>Directions service #Relief Chennai</title>
     <style>
       html, body {
