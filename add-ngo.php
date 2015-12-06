@@ -63,9 +63,9 @@ include 'analyticstracking.php';
                   <a href="helpline.php" class="collection-item">Helpline</a>   <!-- Dropdown Trigger -->
                 <a  class="collection-item" data-beloworigin="true" href="#!" ><span>Emergency<i class="material-icons right">arrow_drop_down</i></span></a>
                 <ul>
-                      <li><a href="#!">Fire & rescue : <p>101</p></a></li>
+                      <li><a href="#!">Fire & rescue : <p><a href="tel:101">101</a></p></a></li>
                       <li class="divider"></li>
-                      <li><a href="#!">Electricity : <p>1912</p></a></li>
+                      <li><a href="#!">Electricity : <p><a href="tel:1912">1912</a></p></a></li>
                       <li class="divider"></li>
                       <li><a href="#!">District Emergency: <p>1077</p></a></li>
                       <li class="divider"></li>

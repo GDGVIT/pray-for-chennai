@@ -298,7 +298,7 @@ function showHelpline()
               <p>Area: '.$area.'</p>
              </div>
             <div class="card-action">
-              <a href="#">Contact: '.$number.'</a><br>
+              <a Contact:  <a href="tel:'.$contact.'">'.$contact.'</a></a><br>
               
             </div>
           </div>
@@ -344,7 +344,7 @@ function fetchHelpsByTypeOfHelp($typeOfHelp)
               <p>Address: '.$address.'.</p>
              </div>
             <div class="card-action">
-              <a href="#">Contact: '.$contact.'</a><br>
+              <a href="#">Contact: <a href="tel:'.$contact.'">'.$contact.'</a></a><br>
               
             </div>
           </div>
@@ -383,7 +383,7 @@ function fetchHelpsByTypeOfHelp($typeOfHelp)
               <p>Type of help: '.$typeOfHelp.'.</p>
              </div>
             <div class="card-action">
-              <a href="#">Contact: '.$contact.'</a><br>
+              <a href="#">Contact:  <a href="tel:'.$contact.'">'.$contact.'</a></a><br>
               
             </div>
           </div>
