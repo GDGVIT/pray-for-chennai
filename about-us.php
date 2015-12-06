@@ -13,7 +13,6 @@
     <meta name="distribution" content="Global" />
     <meta name="robots" content="index, follow" />
     <meta name="revisit-after" content="1 days"/>
-    <meta name="publisher" content="Anurag Tiwari, Ashwini Purothi, Rishi Raj, Vignesh, Thiyagaraj" />
     <meta name="copyright" content="Relief Chennai"/>
     
 

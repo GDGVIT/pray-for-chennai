@@ -14,8 +14,7 @@
     <meta name="distribution" content="Global" />
     <meta name="robots" content="index, follow" />
     <meta name="revisit-after" content="1 days"/>
-    <meta name="publisher" content="Anurag Tiwari, Ashwini Purothi, Rishi Raj, Vignesh, Thiyagaraj" />
-    <meta name="copyright" content="Relief Chennai"/>
+     <meta name="copyright" content="Relief Chennai"/>
     
     <meta charset="utf-8">
   <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
