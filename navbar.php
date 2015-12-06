@@ -48,7 +48,8 @@
       <li><a href="need-help.php">Request Help</a></li>
       <li><a href="find-ngo.php">Find NGO by Locality</a></li>
        <li><a href="livestatus.php"class="collection-item" >Live Status</a></li>
-       <a href="safe.php" class="collection-item">Find Safe Place</a>
+      <li> <a href="safe.php" class="collection-item">Find Safe Place</a></li>
+      <li><a href="raillines.php" class="collection-item">Petrol and Train Services</a></li>
       <li><a href="add-ngo.php">Help/Volunteer</a></li>
       <li><a href="disclaimer.php">Disclaimer</a></li>
       <li><a href="news.php">Follow the news</a></li>

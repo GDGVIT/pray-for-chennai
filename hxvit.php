@@ -68,6 +68,7 @@ include 'analyticstracking.php';
                 <a href="need-help.php"class="collection-item" >Request Help</a>
                   <a href="livestatus.php"class="collection-item" >Live Status</a>
                   <a href="safe.php" class="collection-item">Find Safe Place</a>
+                  <a href="raillines.php" class="collection-item">Petrol and Train Services</a>
                 <a href="add-ngo.php" class="collection-item">Help/Volunteer</a>
                 <a href="donate.php"class="collection-item" >Donate</a>
                <a href="news.php"class="collection-item" >Follow the news</a>s
