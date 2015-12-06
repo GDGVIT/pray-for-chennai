@@ -125,7 +125,7 @@ function showPeopleWhoNeedHelp()
               <p>Type of help :'.$typeOfHelp.'</p>
             </div>
             <div class="card-action">
-              <a href="#">Contact: '.$contact.'</a><br>
+              <a href="tel:'.$contact.'">Contact: '.$contact.'</a><br>
               <form action = "iAmNowSafe.php" method = "GET">
               	<input type = "hidden" name = "name" value = "'.$name.'" > 
               	<input type = "hidden" name = "contact" value = "'.$contact.'" >
@@ -176,7 +176,7 @@ function showPeopleWhoAreGivingHelp()
               <p>Type of help :'.$typeOfHelp.'</p>
             </div>
             <div class="card-action">
-              <a href="#">Contact: '.$contact.'</a><br>
+              <a href="tel:'.$contact.'">Contact: '.$contact.'</a><br>
               
             </div>
           </div>
@@ -298,7 +298,7 @@ function showHelpline()
               <p>Area: '.$area.'</p>
              </div>
             <div class="card-action">
-              <a href="#">Contact: '.$number.'</a><br>
+              <a href="tel:'.$number.'">Contact: '.$number.'</a><br>
               
             </div>
           </div>
@@ -344,7 +344,7 @@ function fetchHelpsByTypeOfHelp($typeOfHelp)
               <p>Address: '.$address.'.</p>
              </div>
             <div class="card-action">
-              <a href="#">Contact: '.$contact.'</a><br>
+              <a href="tel:'.$contact.'">Contact: '.$contact.'</a><br>
               
             </div>
           </div>
@@ -383,7 +383,7 @@ function fetchHelpsByTypeOfHelp($typeOfHelp)
               <p>Type of help: '.$typeOfHelp.'.</p>
              </div>
             <div class="card-action">
-              <a href="#">Contact: '.$contact.'</a><br>
+              <a href="tel:'.$contact.'">Contact: '.$contact.'</a><br>
               
             </div>
           </div>
