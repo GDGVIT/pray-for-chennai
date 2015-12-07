@@ -8,8 +8,8 @@
 <br>
 <h3>Developed By</h3>
 <ul>
-<li>Ashwini Purohit, Anurag Tiwari - Frontend & Backend developer</li>
-<li>Vignesh Sankar - Marketing lead</li>
+<li>Ashwini Purohit, Anurag Tiwari - Frontend & Backend Developer</li>
 <li>Rishi Raj - Front End Developer</li>
+<li>Vignesh Sankar - Marketing</li>
 <li>Thiyagraj - Design and Information</li>
 </ul>
